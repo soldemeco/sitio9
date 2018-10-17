@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Oswald");
+header {
+  background: #07363b;
+  padding: 100px 0;
+}
+header h1 {
+  color: #ffa58a;
+  font-family: Montserrat;
+}
+header h2 {
+  color: #b0e1ee;
+}
+header p {
+  color: white;
+}
+header p a {
+  color: #ffa58a;
+}
+header p a:hover {
+  color: cyan;
+}
+
+#s1 h3 {
+  background: #f0f0f0;
+}
+#s1 p {
+  font-style: Montserrat;
+}
+#s1 p.destacado {
+  font-weight: bold;
+}
+
+#telefe div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: green;
+  display: inline-block;
+}
+#telefe div:first-child {
+  background: blue;
+}
+#telefe div:last-child {
+  background: red;
+}
+
+#telefe2 div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: green;
+  display: inline-block;
+}
+#telefe2 div:after, #telefe2 div:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  display: inline-block;
+}
+#telefe2 div:before {
+  content: "";
+  background: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
